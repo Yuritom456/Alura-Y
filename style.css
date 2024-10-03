@@ -1,0 +1,97 @@
+
+:root{
+    --cor-primaria-proximo : rgb(38, 0, 255);
+    --cor-hover-proximo : rgb(134, 113, 255);
+    --cor-secundaria-proximo : #000000;
+
+    --cor-primaria-info : #ffee00;
+    --cor-hover-info : #fff23f;
+    --cor-secundaria-info : #000000;
+
+    --cor-primaria-danger : #fc0303;
+    --cor-hover-danger : #ff5555;
+    --cor-secundaria-danger : #000000;
+}
+
+.btn{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 10px;
+}
+
+/*proximo*/
+.btn-proximo:hover{
+    background-color: var(--cor-primaria-proximo);
+    outline: none;
+    color: var(--cor-secundaria-proximo);
+}
+
+.btn-proximo{
+    background-color: var(--cor-hover-proximo);
+
+}
+
+.btn-proximo:active{
+    background-color: var(--cor-secundaria-proximo);
+    color: #ffffff;
+}
+/*INFO*/
+.btn-info:hover{
+    background-color: var(--cor-primaria-info);
+    outline: none;
+    color: var(--cor-secundaria-info);
+}
+
+.btn-info{
+    background-color: var(--cor-hover-info);
+
+}
+
+.btn-info:active{
+    background-color: var(--cor-secundaria-info);
+    color: #ffffff;
+}
+
+/*DANGER*/
+.btn-danger:hover{
+    background-color: var(--cor-primaria-danger);
+    outline: none;
+    color: var(--cor-secundaria-danger);
+}
+
+.btn-danger{
+    background-color: var(--cor-hover-danger);
+
+}
+
+.btn-danger:active{
+    background-color: var(--cor-secundaria-danger);
+    color: #ffffff;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background: rgb(3, 0, 19);
+    text-align: center;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+
+
+
+
+
+img {
+    width: 22%;
+}
+
